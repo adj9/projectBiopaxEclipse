@@ -41,7 +41,7 @@ public class GetRelatedPhysicalEntitiesQuery implements ExsecuteQuey  {
 		Model model = null;
 		// Creare il modello da result.
 		try {
-			handler.convertToOWL(model, new FileOutputStream(System.getenv("user.dir") 
+			handler.convertToOWL(model, new FileOutputStream(System.getProperty("user.dir") 
 																		+ "Pathways\\QueryHrev1.owl"));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
