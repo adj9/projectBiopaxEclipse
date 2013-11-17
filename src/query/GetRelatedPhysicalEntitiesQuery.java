@@ -1,14 +1,18 @@
 package query;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.util.HashSet;
 import java.util.Set;
 
+import org.biopax.paxtools.io.SimpleIOHandler;
 import org.biopax.paxtools.model.BioPAXElement;
+import org.biopax.paxtools.model.Model;
 import org.biopax.paxtools.model.level3.PhysicalEntity;
 import org.biopax.paxtools.query.QueryExecuter;
 
 /**
- * Query che dato un oggetto {@link BioPAXElement} ritornano gli oggetti {@link PhysicalEntity} correlati, per i BioPAX livello 3. 
+ * Query che ritornana un {@link Set} gli oggetti {@link PhysicalEntity} dato un oggetto {@link BioPAXElement} correlati, solo per i BioPAX livello 3. 
  *
  * @author Alessandro
  *
@@ -23,6 +27,7 @@ public class GetRelatedPhysicalEntitiesQuery implements ExsecuteQuey  {
 		this.pes = pes;
 		this.result = new HashSet<PhysicalEntity>();
 	}
+	
 	@Override
 	public void exsecuteQuery() {
 		// TODO Auto-generated method stub
@@ -32,8 +37,22 @@ public class GetRelatedPhysicalEntitiesQuery implements ExsecuteQuey  {
 	@Override
 	public void saveQuery() {
 		// TODO Auto-generated method stub
-		
+		SimpleIOHandler handler = new SimpleIOHandler();
+		Model model = null;
+		// Creare il modello da result.
+		try {
+			handler.convertToOWL(model, new FileOutputStream(System.getenv("user.dir") 
+																		+ "Pathways\\QueryHrev1.owl"));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
-	
+	/**
+	 * @return the result
+	 */
+	public Set<PhysicalEntity> getResult() {
+		return result;
+	}
 }
