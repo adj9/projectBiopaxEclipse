@@ -1,36 +1,34 @@
 package cpath.webservice;
 
-View Javadoc
 
-1   /**
-2    ** Copyright (c) 2010 Memorial Sloan-Kettering Cancer Center (MSKCC)
-3    ** and University of Toronto (UofT).
-4    **
-5    ** This is free software; you can redistribute it and/or modify it
-6    ** under the terms of the GNU Lesser General Public License as published
-7    ** by the Free Software Foundation; either version 2.1 of the License, or
-8    ** any later version.
-9    **
-10   ** This library is distributed in the hope that it will be useful, but
-11   ** WITHOUT ANY WARRANTY, WITHOUT EVEN THE IMPLIED WARRANTY OF
-12   ** MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.  The software and
-13   ** documentation provided hereunder is on an "as is" basis, and
-14   ** both UofT and MSKCC have no obligations to provide maintenance, 
-15   ** support, updates, enhancements or modifications.  In no event shall
-16   ** UofT or MSKCC be liable to any party for direct, indirect, special,
-17   ** incidental or consequential damages, including lost profits, arising
-18   ** out of the use of this software and its documentation, even if
-19   ** UofT or MSKCC have been advised of the possibility of such damage.  
-20   ** See the GNU Lesser General Public License for more details.
-21   **
-22   ** You should have received a copy of the GNU Lesser General Public License
-23   ** along with this software; if not, write to the Free Software Foundation,
-24   ** Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA;
-25   ** or find it at http://www.fsf.org/ or http://www.gnu.org.
-26   **/
-27  
-28  package cpath.webservice;
-29  
+  /**
+   ** Copyright (c) 2010 Memorial Sloan-Kettering Cancer Center (MSKCC)
+   ** and University of Toronto (UofT).
+   **
+   ** This is free software; you can redistribute it and/or modify it
+   ** under the terms of the GNU Lesser General Public License as published
+   ** by the Free Software Foundation; either version 2.1 of the License, or
+   ** any later version.
+   **
+   ** This library is distributed in the hope that it will be useful, but
+   ** WITHOUT ANY WARRANTY, WITHOUT EVEN THE IMPLIED WARRANTY OF
+   ** MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.  The software and
+   ** documentation provided hereunder is on an "as is" basis, and
+   ** both UofT and MSKCC have no obligations to provide maintenance, 
+   ** support, updates, enhancements or modifications.  In no event shall
+   ** UofT or MSKCC be liable to any party for direct, indirect, special,
+   ** incidental or consequential damages, including lost profits, arising
+   ** out of the use of this software and its documentation, even if
+   ** UofT or MSKCC have been advised of the possibility of such damage.  
+   ** See the GNU Lesser General Public License for more details.
+   **
+   ** You should have received a copy of the GNU Lesser General Public License
+   ** along with this software; if not, write to the Free Software Foundation,
+   ** Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA;
+   ** or find it at http://www.fsf.org/ or http://www.gnu.org.
+   **/
+
+
 import java.io.IOException;
 import java.io.Writer;
 import java.util.*;
