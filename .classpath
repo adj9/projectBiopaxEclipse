@@ -4,5 +4,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/Alessandro/Documents/GitHub/projectBiopaxEclipse/lib/paxtools-4.2.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Alessandro/Documents/GitHub/projectBiopaxEclipse/lib/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Alessandro/Documents/GitHub/projectBiopaxEclipse/lib/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Alessandro/Documents/GitHub/projectBiopaxEclipse/lib/slf4j-api-1.7.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
