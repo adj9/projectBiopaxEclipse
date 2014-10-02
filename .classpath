@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Alessandro/Documents/GitHub/projectBiopaxEclipse/lib/paxtools-4.2.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Alessandro/Documents/GitHub/projectBiopaxEclipse/lib/servlet-api-2.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Alessandro/Documents/GitHub/projectBiopaxEclipse/lib/validation-api-1.1.0.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Alessandro/Documents/GitHub/projectBiopaxEclipse/lib/slf4j-api-1.7.5.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="lib" path="C:/Users/Alessandro/Documents/GitHub/projectBiopaxEclipse/lib/bipoaxPattern-1.1.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Alessandro/Documents/GitHub/projectBiopaxEclipse/lib/json-org.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
